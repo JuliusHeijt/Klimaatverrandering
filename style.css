@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+h1 {
+  margin-left: 20px;
+}
+h2 {
+  margin-left: 20px;
+}
+p {
+  margin-left: 20px;
+}
+body {
+  background-image: url("Webachtergrond.jpg");
+  font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  opacity: 0.5;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  opacity: 1;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+body {
+  color: white;
+  font-family: "italic";
+}
+
+
+div.a {
+  font-size: 30px;
+}
+
+div.b {
+  font-size: large;
+}
+
+div.c {
+  font-size: 25px;
+}
+
+div.d {
+  font-size: 15px;
+}
+
+div.e {
+  font-size: 50px;
+}
+.antwoord {
+  color: black;
+  background-color: black;
+}
+.antwoord:hover {
+  color: white;
+}
+div {
+  width: 1280px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 20px;
+}
